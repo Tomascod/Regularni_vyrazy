@@ -6,8 +6,8 @@ public class pr1 {
         String psc = "334 01";
 
         if(psc.matches(regex)){
-            System.out.println("platné psč");
-        }else System.out.println("neplatné");
+            System.out.println("ano");
+        }else System.out.println("ne");
 
     }
 }
